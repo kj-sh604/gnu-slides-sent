@@ -6,3 +6,9 @@
 
 𝗧𝗼 𝘂𝘀𝗲 𝗮𝗱𝗱𝗶𝘁𝗶𝗼𝗻𝗮𝗹 𝗽𝗮𝘁𝗰𝗵𝗲𝘀:
 patch -p1 < [NAME OF PATCH FILE].diff
+
+【﻿Ｂｕｉｌｄ　ａｎｄ　Ｒｕｎ】
+
+$ make 
+$ #use "make -B" to rebuild after making modifications
+$ ./sent presentation #to run the presentation
