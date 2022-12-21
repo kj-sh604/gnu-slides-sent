@@ -8,7 +8,6 @@
 patch -p1 < [NAME OF PATCH FILE].diff
 
 【﻿Ｂｕｉｌｄ　ａｎｄ　Ｒｕｎ】
-
 $ make 
 $ #use "make -B" to rebuild after making modifications
 $ ./sent presentation #to run the presentation
