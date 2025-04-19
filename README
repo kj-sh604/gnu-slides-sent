@@ -1,13 +1,13 @@
-𝗥𝗶𝗰𝗵𝗮𝗿𝗱 𝗦𝘁𝗮𝗹𝗹𝗺𝗮𝗻'𝘀 𝗚𝗡𝗨 𝗙𝗿𝗲𝗲 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗦𝗹𝗶𝗱𝗲𝘀 𝗿𝗲-𝗺𝗮𝗱𝗲 𝗶𝗻 𝘀𝘂𝗰𝗸𝗹𝗲𝘀𝘀 𝘀𝗲𝗻𝘁
+Richard Stallman's GNU Free Software Slides re-made in suckless sent
 
-𝗔𝗽𝗽𝗹𝗶𝗲𝗱 𝗣𝗮𝘁𝗰𝗵𝗲𝘀
-• Bilinear filtering patch
-• .pdf export patch (𝘱𝘳𝘦𝘴𝘴 𝘨 𝘵𝘰 𝘦𝘹𝘱𝘰𝘳𝘵 𝘵𝘰 𝘸𝘰𝘳𝘬𝘪𝘯𝘨 𝘥𝘪𝘳𝘦𝘤𝘵𝘰𝘳𝘺)
+Applied Patches:
+    * Bilinear filtering patch
+    * .pdf export patch (press g to export to working directory)
 
-𝗧𝗼 𝘂𝘀𝗲 𝗮𝗱𝗱𝗶𝘁𝗶𝗼𝗻𝗮𝗹 𝗽𝗮𝘁𝗰𝗵𝗲𝘀:
-patch -p1 < [NAME OF PATCH FILE].diff
+To use additional patches:
+    $ patch -p1 < [NAME OF PATCH FILE].diff
 
-【﻿Ｂｕｉｌｄ　ａｎｄ　Ｒｕｎ】
-$ make 
-$ #use "make -B" to rebuild after making modifications
-$ ./sent presentation #to run the presentation
+[Build and Run]
+    $ make 
+    $ #use "make -B" to rebuild after making modifications
+    $ ./sent presentation #to run the presentation
